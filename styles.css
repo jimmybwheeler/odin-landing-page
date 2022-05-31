@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    color: #F9FAF8;
+    background-color: #1f2937;
+}
+
+.containerOne h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.containerOne p, header ul {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+header h2 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.containerOne {
+    background-color: #1f2937;
+}
+
+.containerTwo {
+    
+}
+
+.containerTwo ul {
+    display: flex;
+    justify-content: center;
+}
+
+.containerTwo h2 {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.containerThree {
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+
+.containerThree p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.containerFour {
+    padding: 100px;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.subContainer {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+}
+
+.subContainer .rightSide {
+    border: solid white 1px;
+    display: flex;
+    margin-left: auto;
+}
+
+li img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
