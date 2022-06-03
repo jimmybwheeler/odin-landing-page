@@ -46,15 +46,33 @@ header h2 {
 
 .containerOne {
     background-color: #1f2937;
+    display: flex;
 }
 
 .containerTwo {
-    
+    padding: 50px;
 }
 
 .containerTwo ul {
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.containerTwo li {
+    display: flex;
+    flex-flow: column wrap;
+    width: 150px;
+}
+
+.containerTwo li img {
+    border: solid blue;
+    border-radius: 20px;
 }
 
 .containerTwo h2 {
@@ -63,15 +81,26 @@ header h2 {
     font-weight: bolder;
     color: #1F2937;
     justify-content: center;
+    margin-bottom: 35px;
 }
 
 .containerThree {
     background-color: #E5E7EB;
-    padding: 50px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.containerThree h4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
 }
 
 .containerThree p {
-    font-size: 36px;
+    font-size: 26px;
     color: #1F2937;
     font-style: italic;
 }
@@ -88,12 +117,10 @@ button {
     background-color: #3882f6;
     display: flex;
     flex-direction: column;
-}
-
-.subContainer .rightSide {
-    border: solid white 1px;
-    display: flex;
-    margin-left: auto;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 li img {
